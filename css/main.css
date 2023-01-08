@@ -22,11 +22,11 @@ h3,
   background-color: hsl(193deg, 100%, 96%);
   height: 100vh;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .hero {
     background: url(../images/bg-hero-mobile.svg);
     background-color: hsl(193deg, 100%, 96%);
-    height: 100vh;
+    height: 130vh;
   }
 }
 

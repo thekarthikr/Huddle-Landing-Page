@@ -27,9 +27,9 @@ h3 {
   background-color: $VeryPaleCyans;
   height: 100vh;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 768px) {
     background: url(../images/bg-hero-mobile.svg);
     background-color: $VeryPaleCyans;
-    height: 100vh;
+    height: 130vh;
   }
 }
