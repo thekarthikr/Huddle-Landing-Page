@@ -6,7 +6,7 @@ $info: white;
 
 $VeryPaleCyans: hsl(193, 100%, 96%);
 $secondary: hsl(192, 100%, 9%);
-$GrayishBlue: hsl(208, 11%, 55%);
+$light: hsl(208, 11%, 55%);
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -16,6 +16,7 @@ h1,
 h2,
 h3 {
   font-family: "Poppins", sans-serif;
+  color: $secondary;
 }
 
 .btn:hover {
@@ -32,4 +33,8 @@ h3 {
     background-color: $VeryPaleCyans;
     height: 130vh;
   }
+}
+
+.build-community {
+  left: 45%;
 }
